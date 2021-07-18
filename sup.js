@@ -19,6 +19,6 @@ app.use(function(request, response) {
 })
 
 // listen for requests :)
-const listener = app.listen(3001, () => {
+const listener = app.listen(3000, () => {
   console.log("The static server is listening on port " + listener.address().port);
 });
